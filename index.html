@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Los Angeles Mountains</title>
+
+  <link rel="stylesheet" href="/css/style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
+
+  <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+</head>
+<style type="text/css">
+  #nav-mountain1-tab,
+  #nav-mountain2-tab {
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 24px;
+    font-weight: 700;
+    color: #b0b4be
+  }
+
+  #nav-mountain1-tab:hover,
+  #nav-mountain2-tab:hover {
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 24px;
+    font-weight: 700;
+    color: #b0b4be;
+    border-color: transparent
+  }
+
+  .nav-link.active {
+    background: #b0b4be !important;
+    border-color: transparent !important;
+    color: #414f6b !important;
+    border-radius: 0 !important
+  }
+  .dark-background{
+    background-color: #414f6b;
+  }
+  .width75{
+    width:75%
+  }
+  .marginEnd{
+    margin-right:3rem
+  }
+  .accordion-button:not(.collapsed){
+    background-color:white !important;
+  }
+  .accordion-button:focus{
+    border-color: transparent !important;
+    box-shadow: none !important;
+  }
+  @media only screen and (max-width: 500px){
+    .width75{
+    width:100%
+  }
+  .marginEnd{
+    margin-right:0rem
+  }
+  .marginTop{
+    margin-top:100px;
+  }
+  .dark-background{
+    background-color: white;
+  }
+  }
+  
+</style>
+
+<body>
+  <section class="hero_section">
+    <div class="container width75 d-flex justify-content-between align-content-center">
+      <div>
+        <img class="hero_logo" src="/images/logo.png" alt="logo1" />
+      </div>
+      <div class="d-flex text-white align-items-center">
+        <p>
+          <a href="#history"><span class="marginEnd text-white text-decoration-underline">01. HISTORY</span></a>
+        </p>
+        <p>
+          <a href="#team"><span class="text-white text-decoration-underline">02. TEAM</span></a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="container width75 bg-white d-flex justify-content-between">
+    <div>
+      <img src="/images/logo3.png" alt="logo1" />
+    </div>
+    <div class="d-flex text-primary align-items-center">
+      <p>
+        <a href="#history"><span style="color: #414f6b" class="marginEnd text-decoration-underline">01. HISTORY</span></a>
+      </p>
+      <p>
+        <a href="#team"><span style="color: #414f6b" class="text-decoration-underline">02. TEAM</span></a>
+      </p>
+    </div>
+  </section>
+
+  <section class="history_section d-flex flex-column justify-content-between">
+    <div class="container width75 d-flex flex-column">
+      <div class="d-flex">
+        <div>
+          <p>
+            <span style="font-size: 110px; color: #b0b4be; font-weight:700">01</span>
+          </p>
+        </div>
+        <div class="d-flex flex-column align-items-start" style="font-size: 60px; margin: 0px">
+          <span id="history" class="text_section">HISTORY</span>
+          <span class="dot_section">.</span>
+        </div>
+      </div>
+      <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+        voluptas, fugit illo ea totam atque quia explicabo sequi nostrum. Odit
+        cum nobis perspiciatis beatae facilis, ducimus reprehenderit eveniet
+        blanditiis dolorem modi! Officiis accusamus ducimus in pariatur
+        delectus error minima, saepe cumque. Rem at suscipit, rerum laborum
+        eligendi omnis nam amet.
+      </div>
+    </div>
+    <div class="carosel-bg p-3">
+  <!-- Carousel -->
+      <div class=" container width75 carousel owl-carousel">
+        <div class="card">
+          <!-- <div class="box"> -->
+          <img src="images/photo-1443980995706-8d107e98e707.jpg" alt="img">
+          <!-- </div> -->
+        </div>
+        <div class="card">
+          <!-- <div class="box"> -->
+          <img src="images/photo-1458442310124-dde6edb43d10.jpg" alt="img">
+          <!-- </div> -->
+        </div>
+        <div class="card">
+          <!-- <div class="box"> -->
+          <img src="images/photo-1443980995706-8d107e98e707.jpg" alt="img">
+          <!-- </div> -->
+        </div>
+        <div class="card">
+          <!-- <div class="box"> -->
+          <img src="images/photo-1458442310124-dde6edb43d10.jpg" alt="img">
+          <!-- </div> -->
+        </div>
+        <div class="card">
+          <!-- <div class="box"> -->
+          <img src="images/photo-1443980995706-8d107e98e707.jpg" alt="img">
+          <!-- </div> -->
+        </div>
+        <div class="card">
+          <!-- <div class="box"> -->
+          <img src="images/photo-1458442310124-dde6edb43d10.jpg" alt="img">
+          <!-- </div> -->
+        </div>
+        <div class="card">
+          <!-- <div class="box"> -->
+          <img src="images/photo-1443980995706-8d107e98e707.jpg" alt="img">
+          <!-- </div> -->
+        </div>
+        <div class="card">
+          <!-- <div class="box"> -->
+          <img src="images/photo-1458442310124-dde6edb43d10.jpg" alt="img">
+          <!-- </div> -->
+        </div>
+        <div class="card">
+          <!-- <div class="box"> -->
+          <img src="images/photo-1443980995706-8d107e98e707.jpg" alt="img">
+          <!-- </div> -->
+        </div>
+        <div class="card">
+          <!-- <div class="box"> -->
+          <img src="images/photo-1458442310124-dde6edb43d10.jpg" alt="img">
+          <!-- </div> -->
+        </div>
+        <div class="card">
+          <!-- <div class="box"> -->
+          <img src="images/photo-1443980995706-8d107e98e707.jpg" alt="img">
+          <!-- </div> -->
+        </div>
+        <div class="card">
+          <!-- <div class="box"> -->
+          <img src="images/photo-1458442310124-dde6edb43d10.jpg" alt="img">
+          <!-- </div> -->
+        </div>
+      </div>
+      <!-- Carousel -->
+    </div>
+  </section>
+  <section class="climb_section">
+    <div class="container width75  d-flex flex-sm-column flex-md-row gap-5">
+      <div class="d-flex">
+        <div>
+          <p>
+            <span style="font-size: 110px; color: #b0b4be; font-weight:700">02</span>
+          </p>
+        </div>
+        <div class="d-flex flex-column align-items-start" style="font-size: 60px; margin: 0px">
+          <span id="team" class="text_section">CLIMB</span>
+          <span class="dot_section">.</span>
+        </div>
+      </div>
+      <div class="mt-5">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+        voluptas, fugit illo ea totam atque quia explicabo sequi nostrum. Odit
+        cum nobis perspiciatis beatae facilis, ducimus reprehenderit eveniet
+        blanditiis dolorem modi! Officiis accusamus ducimus in pariatur
+
+      </div>
+  </section>
+
+
+  
+
+    <!-- Accordion Main -->
+    <div class="accordion pb-5 d-sm-none d-block" id="accordionExample">
+      <!-- Accordion 1 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            MOUNTAIN #1
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <div class="w-50 ms-3 table_styling p-1">
+              <h4 class="m-0">SCHEDULE NO. 1</h4>
+              <table class="m-0 table table-borderless">
+                <tbody>
+                  <tr>
+                    <td>25 Nov 2016</td>
+                    <td>Vestibulum viverra</td>
+                  </tr>
+                  <tr>
+                    <td>28 Nov 2016</td>
+                    <td>Vestibulum viverra</td>
+                  </tr>
+                  <tr>
+                    <br />
+                  </tr>
+                  <tr>
+                    <td>18 Dec 2016</td>
+                    <td>Vestibulum viverra</td>
+                  </tr>
+                  <tr>
+                    <br />
+                  </tr>
+                  <tr>
+                    <td>7 Jan 2016</td>
+                    <td>Vestibulum viverra</td>
+                  </tr>
+                </tbody>
+              </table>
+          </div>
+        </div>
+      </div>
+      <!-- Accordion 1 End -->
+      <!-- Accordion 2 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            MOUNTAIN  #2
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <div class="w-50 ms-3 table_styling p-1">
+              <h4 class="m-0">SCHEDULE NO.2</h4>
+              <table class="m-0 table table-borderless">
+                <tbody>
+                  <tr>
+                    <td>25 Nov 2016</td>
+                    <td>Vestibulum</td>
+                  </tr>
+                  <tr>
+                    <td>28 Nov 2016</td>
+                    <td>Vestibulum</td>
+                  </tr>
+                  <tr>
+                    <br />
+                  </tr>
+                  <tr>
+                    <td>18 Dec 2016</td>
+                    <td>Vestibulum</td>
+                  </tr>
+                  <tr>
+                    <br />
+                  </tr>
+                  <tr>
+                    <td>7 Jan 2016</td>
+                    <td>Vestibulum</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Accordion 2 End -->
+      
+    </div>
+    <!-- Accordion End -->
+  </div>
+  <!-- Accordion Container End  -->
+  <div class="container-fluid dark-background marginTop">
+    <div class="container width75 d-flex justify-content-between align-content-center">
+      <nav>
+        <div class="nav nav-tabs d-none d-sm-flex" id="nav-tab" role="tablist">
+          <button class="nav-link active" id="nav-mountain1-tab" data-bs-toggle="tab" data-bs-target="#nav-home"
+            type="button" role="tab" aria-controls="nav-home" aria-selected="true">Mountain 1</button>
+          <button class="nav-link" id="nav-mountain2-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
+            type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Mountain 2</button>
+        </div>
+      </nav>
+    </div>
+  <section class="schedule_section position-static p-5">
+    <!-- Tabs Start -->
+    
+    <div class="tab-content d-none d-sm-block" id="nav-tabContent">
+      <!-- Tabs 1st -->
+      <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+        <div class="container width75 mt-5">
+          <div class="w-50 ms-3 table_styling p-4">
+            <h4 class="m-0">SCHEDULE NO. 1</h4>
+            <table class="m-0 table table-borderless">
+              <tbody>
+                <tr>
+                  <td>25 Nov 2016</td>
+                  <td>Vestibulum viverra</td>
+                </tr>
+                <tr>
+                  <td>28 Nov 2016</td>
+                  <td>Vestibulum viverra</td>
+                </tr>
+                <tr>
+                  <br />
+                </tr>
+                <tr>
+                  <td>18 Dec 2016</td>
+                  <td>Vestibulum viverra</td>
+                </tr>
+                <tr>
+                  <br />
+                </tr>
+                <tr>
+                  <td>7 Jan 2016</td>
+                  <td>Vestibulum viverra</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <!-- Tabs 1st end -->
+      <!-- Tabs 2nd Start -->
+      <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+        <div class="container width75 mt-5">
+          <div class="w-50 ms-3 table_styling p-4">
+            <h4 class="m-0">SCHEDULE NO.2</h4>
+            <table class="m-0 table table-borderless">
+              <tbody>
+                <tr>
+                  <td>25 Nov 2016</td>
+                  <td>Vestibulum</td>
+                </tr>
+                <tr>
+                  <td>28 Nov 2016</td>
+                  <td>Vestibulum</td>
+                </tr>
+                <tr>
+                  <br />
+                </tr>
+                <tr>
+                  <td>18 Dec 2016</td>
+                  <td>Vestibulum</td>
+                </tr>
+                <tr>
+                  <br />
+                </tr>
+                <tr>
+                  <td>7 Jan 2016</td>
+                  <td>Vestibulum</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+      <!-- Tabs 2nd End -->
+    </div>
+  </section>
+
+  <footer class="footer_section">
+    <div class="container width75 d-flex justify-content-between">
+      <div>
+        <img src="/images/logo3.png" alt="logo1" />
+      </div>
+      <div style="color: #5e729a" class="d-flex align-items-center">
+        <p>COPYRIGHT 2016. ALL RIGHTS RESERVED</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
